@@ -7,7 +7,7 @@ def collect_melon_top100():
     실제 구조 변경 시 CSS 선택자나 URL 등을 수정해야 합니다.
     """
     # 멜론 차트 주소(예시). 상황에 따라 다른 차트(일간/주간 등) 링크를 사용할 수도 있음.
-    base_url = "https://www.melon.com/chart/index.htm"
+    base_url = "https://www.melon.com/"
 
     # 일반 브라우저에서 접근하는 것처럼 User-Agent 헤더를 추가
     headers = {
